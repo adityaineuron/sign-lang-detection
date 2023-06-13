@@ -12,7 +12,7 @@ class ModelPusherConfig:
 
     bucket_name: str = "sign-lang-23"
 
-    s3_model_key_path: str = "best.pt"
+    s3_model_key_path: str = "my_model.pt"
 
 
 class ModelPusher:
