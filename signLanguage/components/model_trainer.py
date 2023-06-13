@@ -13,7 +13,7 @@ class ModelTrainerConfig:
 
     weight_name: str = "yolov5s.pt"
 
-    no_epochs: int = 2
+    no_epochs: int = 10
 
     batch_size: int = 16
 
