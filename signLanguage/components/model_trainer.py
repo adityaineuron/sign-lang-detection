@@ -49,7 +49,7 @@ class ModelTrainer:
             os.makedirs(self.trainer_config.model_trainer_artifacts_path, exist_ok=True)
             os.system(f"cp yolov5/runs/train/yolov5s_results/weights/best.pt {self.trainer_config.model_trainer_artifacts_path}/")
 
-            os.system("rm -rf yolov5/runs")
+            #os.system("rm -rf yolov5/runs")
 
             os.system("rm -rf train")
             os.system("rm -rf test")
